@@ -1,0 +1,24 @@
+Review la schematic si PCB:
+
+(+) Validarea ERC a trecut cu succes.
+
+(+) Componentele sunt aceleasi ca in model, condensatoarele sunt bine alese, 0201 pentru valori <= 100nF, respectiv 0402 pentru > 100nF.
+
+(+) Valorile pe care componentele le iau sunt corect puse.
+
+(+) Alimentarea si conectivitatea sunt corect puse.
+
+(+) Logica circuitului este in regula.
+
+(-) PCB-ul nu este complet, legaturi lipsa.
+
+(+) Condensatoarele sunt pozitionate conform cerintei.
+
+(?) Sa se mai verifice grosimea legaturilor de 0.15 mm, nu stiu daca este by default cand l-am deschis dar imi apare fiecare legatura care ar trebui
+sa fie de 0.15 mm cu 0.127 mm. Din aceasta cauza, cel mai probabil, sunt foarte multe erori de tip Copper Width.
+
+(-) Sunt cateva erori de Copper Clearance pe Route2, sunt legaturi fara conexiune si in plus provoaca aceasta eroare.
+
+(-) Ruta trasa in perimetrul antenei.
+
+(-) Trebuie adaugate planuri de masa (curent doar layer2 are).
